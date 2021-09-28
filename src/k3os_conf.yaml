@@ -1,0 +1,10 @@
+hostname: will_be_overwritten
+ssh_authorized_keys:
+- github:<username>
+k3os:
+  dns_nameservers:
+  - 1.1.1.1
+  modules:
+  - kvm
+  server_url: https://k8s.master.url
+  token: <token>
